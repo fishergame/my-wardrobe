@@ -1,0 +1,7 @@
+{
+  "name": "OOTD Mate",
+  "description": "A personal wardrobe assistant for tracking clothes and planning daily outfits. Features Simple and Exquisite modes, weather integration, and outfit calendar.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
