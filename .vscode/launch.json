@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "启动 Chrome 调试",
+            "url": "http://localhost:3000",
+            "webRoot": "${workspaceFolder}/src",
+            "sourceMaps": true,
+            "preLaunchTask": "npm: dev"
+        },
+        {
+            "type": "chrome",
+            "request": "attach",
+            "name": "连接到 Chrome",
+            "url": "http://localhost:3000",
+            "webRoot": "${workspaceFolder}/src",
+            "sourceMaps": true
+        }
+    ]
+}
